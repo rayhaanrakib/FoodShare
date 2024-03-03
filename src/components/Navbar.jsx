@@ -38,7 +38,7 @@ const Navbar = () => {
 
 
     return (
-        <div className={scrollY ? "bg-white/20 backdrop-blur-md shadow fixed top-0 w-full py-0 z-50 transition-all duration-1000" : "z-50 py-2 bg-transparent"}>
+        <div className={scrollY ? "bg-white/20 backdrop-blur-lg shadow fixed top-0 w-full py-0 z-50 transition-all duration-1000" : "z-50 py-2 bg-transparent"}>
             <div className="navbar px-[3vw]">
                 <div className="navbar-start">
                     <div className="drawer z-40">
@@ -72,6 +72,7 @@ const Navbar = () => {
                     <a href="register" className="relative rounded px-8 py-[10px] overflow-hidden group bg-primary  hover:bg-gradient-to-r hover:from-primary hover:to-primary text-white hover:ring-2 hover:ring-offset-2 hover:ring-primary transition-all ease-out duration-300">
                         <span className="relative uppercase font-medium">Sign Up</span>
                     </a>
+                    
                 </div>
             </div>
         </div>
