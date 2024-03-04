@@ -1,9 +1,10 @@
 import React from 'react';
+import Banner from './../components/Home/Banner';
 
 const Home = () => {
     return (
-        <div className='min-h-[200vh] lg:-mt-24'>
-
+        <div className='min-h-[100vh]'>
+            <Banner></Banner>
         </div>
     );
 };

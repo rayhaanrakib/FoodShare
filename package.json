@@ -10,11 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
+    "aos": "^2.3.4",
     "firebase": "^10.8.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.8",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-hook-form": "^7.51.0",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.22.2",

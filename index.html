@@ -6,11 +6,27 @@
   <link rel="icon" type="image/svg+xml" href="/fav.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FoodShare Connect</title>
+  <!-- aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- Glide Required Core Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <!-- Glide Optional Theme Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
+  <!-- aos animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Glide Script -->
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script>
+    new Glide('.glide').mount()
+  </script>
 </body>
 
 </html>
