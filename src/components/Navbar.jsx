@@ -72,7 +72,7 @@ const Navbar = () => {
                                     </label>
                                 </div>
 
-                                <a className="w-40 text-xl font-medium leading-[30px] tracking-tighter" href='/'><img src="/fav.png" className='w-8 mr-3' alt="" />FoodShare</a>
+                                <a className="w-40 text-xl font-medium leading-[30px] tracking-tighter" href='/'><img src="/fav.png" className='w-8 mr-3' alt="" />FoodConnect</a>
 
                             </div>
                         </div>
@@ -95,13 +95,13 @@ const Navbar = () => {
                     {
                         user ?
                             <div>
-                                <button className="btn btn-ghost btn-circle" onClick={() => document.getElementById('my_modal_3').showModal()}>
+                                <button className="btn btn-ghost btn-circle focus:outline-none" onClick={() => document.getElementById('my_modal_3').showModal()}>
                                     <svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                                 </button>
                                 <dialog id="my_modal_3" className="modal">
-                                    <div data-aos="zoom-in" data-aos-duration="1000" className="relative bg-white/90 rounded-xl px-8 md:px-12 py-8">
+                                    <div data-aos="zoom-in" data-aos-duration="1000" className="relative bg-white rounded-xl px-8 md:px-12 py-8">
                                         <form method="dialog">
-                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 focus:outline-none">✕</button>
                                         </form>
                                         <div className="overflow-hidden rounded flex flex-col items-center text-center text-slate-500">
                                             <figure className="p-6 pb-0">
@@ -134,7 +134,7 @@ const Navbar = () => {
                                                     </a>
                                                     <a href="/request">
                                                         <button className="h-10 whitespace-nowrap rounded bg-accent px-4 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black hover:text-white">
-                                                            <span className="">Request Food</span>
+                                                            <span className="">Food Requests</span>
                                                         </button>
                                                     </a>
                                                 </div>
