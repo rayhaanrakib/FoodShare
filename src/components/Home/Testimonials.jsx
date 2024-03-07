@@ -41,7 +41,7 @@ const Testimonials = () => {
                 <div className="overflow-hidden" data-glide-el="track">
                     <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 pb-12">
                         <li>
-                            <div className="h-full w-full">
+                            <div className="h-[350px] lg:h-[300px] w-full">
                                 <div className="h-full overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
                                     <div className="relative p-6">
                                         <figure className="relative z-10">
@@ -50,7 +50,7 @@ const Testimonials = () => {
                                                     I've had the opportunity to directly impact my community by helping redistribute surplus food to those in need. I'm proud to be a part of such an impactful organization!
                                                 </p>
                                             </blockquote>
-                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary">
+                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary mt-16 lg:mt-0">
 
                                                 <div className="flex items-center gap-4 pt-4 text-sm text-primary">
                                                     <img
@@ -93,16 +93,16 @@ const Testimonials = () => {
 
 
                         <li>
-                            <div className="h-full w-full">
+                            <div className="h-[350px] lg:h-[300px] w-full">
                                 <div className="h-full overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
                                     <div className="relative p-6">
                                         <figure className="relative z-10">
                                             <blockquote className="p-6 h-40 text-lg leading-relaxed">
                                                 <p>
-                                                    They make it easy for businesses like mine to donate surplus food, and I appreciate knowing that it's going to good use in the community. It feels great to be able to give back in a meaningful way and reduce food waste at the same time.
+                                                    They make it easy for businesses like mine to donate surplus food, and I appreciate knowing that it's going to good use in the community.
                                                 </p>
                                             </blockquote>
-                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary">
+                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary mt-20 lg:mt-0">
 
                                                 <div className="flex items-center gap-4 pt-4 text-sm text-primary">
                                                     <img
@@ -145,7 +145,7 @@ const Testimonials = () => {
 
 
                         <li>
-                            <div className="h-full w-full">
+                            <div className="h-[350px] lg:h-[300px] w-full">
                                 <div className="h-full overflow-hidden rounded bg-white text-slate-500 shadow-2xl shadow-slate-200">
                                     <div className="relative p-6">
                                         <figure className="relative z-10">
@@ -154,7 +154,7 @@ const Testimonials = () => {
                                                     Thanks to FoodConnect's donations, we've been able to expand our food programs and better support those in need. Their commitment to fighting hunger and food waste is truly inspiring.
                                                 </p>
                                             </blockquote>
-                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary">
+                                            <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary mt-20 lg:mt-0">
 
                                                 <div className="flex items-center gap-4 pt-4 text-sm text-primary">
                                                     <img

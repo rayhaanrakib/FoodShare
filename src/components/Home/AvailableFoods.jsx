@@ -16,7 +16,7 @@ const AvailableFoods = () => {
             })
     }, [url, axiosSecure])
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-10 lg:px-0'>
             {
                 isLoading ? (<div className='flex justify-center items-center justify-items-center'><img className='w-60' src="https://i.ibb.co/TqhV9yt/loading.gif" alt="" /></div>)
                     :

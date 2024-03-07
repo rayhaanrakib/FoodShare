@@ -13,10 +13,10 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className='pt-10'>
+            <div className='pt-10 hidden lg:block'>
                 <LogoCarousel></LogoCarousel>
             </div>
-            <div className='pt-24 my-6 bg-[#fcf8f4]'>
+            <div className='pt-24 my-6 bg-[#fefbf9]'>
                 <Title align="center" heading="what we do" para="Our Thriving Community: A Shared Vision for Change"></Title>
                 <WhatWeDo></WhatWeDo>
             </div>

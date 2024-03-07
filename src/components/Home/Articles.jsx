@@ -35,7 +35,7 @@ const Articles = () => {
                             <p className="text-sm text-slate-400"> By FoodConnect, Feb 19, 2024</p>
                         </div>
                     </header>
-                    <p>
+                    <p className='w-[270px] lg:w-full'>
                         Discover how FoodShare Hub is revolutionizing surplus food redistribution, connecting donors with recipients to ensure that no edible food goes to waste.
                     </p>
                 </div>
@@ -78,7 +78,7 @@ const Articles = () => {
                             <p className="text-sm text-slate-400"> By FoodConnect, Feb 19, 2024</p>
                         </div>
                     </header>
-                    <p>
+                    <p className='w-[270px] lg:w-full'>
                         Learn about the inspiring stories of individuals and discover how you can join our community-driven efforts to create a more sustainable food system.
                     </p>
                 </div>
@@ -121,7 +121,7 @@ const Articles = () => {
                             <p className="text-sm text-slate-400"> By FoodConnect, Feb 19, 2024</p>
                         </div>
                     </header>
-                    <p>
+                    <p className='w-[270px] lg:w-full'>
                         Get insights into sustainable food solutions and learn practical tips for reducing food waste in your daily life with FoodShare Hub. From meal planning to composting.
                     </p>
                 </div>
