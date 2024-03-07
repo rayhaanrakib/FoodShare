@@ -40,7 +40,7 @@ const Register = () => {
     return (
         <div className="min-h-screen px-[3vw]">
             <Helmet>
-                <title>FoodShare | Register Now</title>
+                <title>FoodConnect | Register Now</title>
             </Helmet>
             <div class="flex overflow-hidden items-center gap-5">
                 <div class="w-full md:w-1/2 py-12 px-4 sm:px-6 md:py-20 md:px-8">

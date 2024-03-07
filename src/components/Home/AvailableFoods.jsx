@@ -16,12 +16,12 @@ const AvailableFoods = () => {
             })
     }, [url, axiosSecure])
     return (
-        <div className='my-20 container mx-auto'>
+        <div className='container mx-auto'>
             {
                 isLoading ? (<div className='flex justify-center items-center justify-items-center'><img className='w-60' src="https://i.ibb.co/TqhV9yt/loading.gif" alt="" /></div>)
                     :
                     (
-                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center'>
+                        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-items-center mt-20'>
                             {
                                 available?.map(food => <FoodCard align="end" key={food._id} food={food}></FoodCard>)
                             }

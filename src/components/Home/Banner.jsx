@@ -7,9 +7,9 @@ const Banner = () => {
             <div className="container mx-auto my-2">
                 <div className="grid items-center justify-between justify-items-end lg:grid-cols-12 gap-10 px-8 h-[650px] rounded-md">
                     <div className="col-span-6">
-                        <h2 className="text-lg lg:text-xl font-medium my-3 text-accent"><Fade cascade damping={0.1}>Join the FoodShare Movement</Fade></h2>
+                        <h2 className="text-lg lg:text-xl font-medium my-3 text-accent"><Fade cascade damping={0.1}>Join the FoodConnect Movement</Fade></h2>
                         <h3 className="text-6xl leading-[60px] capitalize font-medium mt-5 text-black">Connecting <span className="text-primary">Communities,</span> Reducing Waste</h3>
-                        <h3 className="text-base capitalize mt-8 text-secondary">Discover how FoodShare Hub is transforming surplus into sustenance, fostering community connections, and combating food waste.</h3>
+                        <h3 className="text-base capitalize mt-8 text-secondary">Discover how FoodConnect Hub is transforming surplus into sustenance, fostering community connections, and combating food waste.</h3>
                         <a href="login" class="relative mt-8 inline-flex items-center justify-start px-8 py-4 overflow-hidden font-medium transition-all bg-accent rounded-md hover:bg-primary group">
                             <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-200 transition-all border-primary rounded-md"></span>
                             <span class="relative w-full text-left uppercase text-white font-sans transition-colors duration-400 ease-in-out group-hover:text-white">join now</span>

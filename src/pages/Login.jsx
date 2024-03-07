@@ -37,7 +37,7 @@ const Login = () => {
     return (
         <div className="min-h-screen px-[3vw]">
             <Helmet>
-                <title>FoodShare | Sign In Now</title>
+                <title>FoodConnect | Sign In Now</title>
             </Helmet>
             <div class="flex overflow-hidden items-center gap-5">
                 <div class="w-full md:w-1/2 py-12 px-4 sm:px-6 md:py-20 md:px-8">
@@ -49,7 +49,7 @@ const Login = () => {
                             Sign In now to get started and be a part of something meaningful.
                         </p>
                         <p class="mt-3 text-sm text-[#50577A]">
-                            New to Meal Connect? <span className='font-semibold hover:text-accent'><NavLink to="/register">Sign Up Now</NavLink></span>
+                            New to Food Connect? <span className='font-semibold hover:text-accent'><NavLink to="/register">Sign Up Now</NavLink></span>
                         </p>
 
 

@@ -99,7 +99,7 @@ const Navbar = () => {
                                     <svg aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
                                 </button>
                                 <dialog id="my_modal_3" className="modal">
-                                    <div data-aos="zoom-in" data-aos-duration="1000" className="relative bg-white rounded-xl px-8 md:px-12 py-8">
+                                    <div className="modal-box">
                                         <form method="dialog">
                                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 focus:outline-none">✕</button>
                                         </form>
@@ -132,7 +132,7 @@ const Navbar = () => {
                                                             <span className="">Manage Foods</span>
                                                         </button>
                                                     </a>
-                                                    <a href="/request">
+                                                    <a href="/requests">
                                                         <button className="h-10 whitespace-nowrap rounded bg-accent px-4 text-sm font-medium tracking-wide text-white transition duration-300 hover:bg-black hover:text-white">
                                                             <span className="">Food Requests</span>
                                                         </button>

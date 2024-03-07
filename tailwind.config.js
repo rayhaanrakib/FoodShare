@@ -10,12 +10,16 @@ export default {
         primary: '#FF6C22',
         secondary: '#2e355a',
         accent: '#89C149',
-      }
+      },
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
     },
   },
   daisyui: {
     themes: ["emerald"],
   },
   plugins: [require("daisyui")],
+
 }
 

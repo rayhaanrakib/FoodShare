@@ -65,7 +65,7 @@ const Testimonials = () => {
                                                         <span className="font-bold uppercase">
                                                             Emily
                                                         </span>
-                                                        <cite className="not-italic">
+                                                        <cite className="text-gray-400 not-italic">
                                                             <a href="#">
                                                                 Marketing Executive
                                                             </a>
@@ -117,7 +117,7 @@ const Testimonials = () => {
                                                         <span className="font-bold uppercase">
                                                             Mike
                                                         </span>
-                                                        <cite className="not-italic">
+                                                        <cite className="text-gray-400 not-italic">
                                                             <a href="#">
                                                                 Community Organizer
                                                             </a>
@@ -151,7 +151,7 @@ const Testimonials = () => {
                                         <figure className="relative z-10">
                                             <blockquote className="p-6 h-40 text-lg leading-relaxed">
                                                 <p>
-                                                    Thanks to FoodShare's donations, we've been able to expand our food programs and better support those in need. Their commitment to fighting hunger and food waste is truly inspiring.
+                                                    Thanks to FoodConnect's donations, we've been able to expand our food programs and better support those in need. Their commitment to fighting hunger and food waste is truly inspiring.
                                                 </p>
                                             </blockquote>
                                             <figcaption className="flex flex-col items-start gap-2 p-6 pt-0 text-sm text-primary">
@@ -169,7 +169,7 @@ const Testimonials = () => {
                                                         <span className="font-bold uppercase">
                                                             David T
                                                         </span>
-                                                        <cite className="not-italic">
+                                                        <cite className="text-gray-400 not-italic">
                                                             <a href="#">
                                                                 Retired Teacher
                                                             </a>

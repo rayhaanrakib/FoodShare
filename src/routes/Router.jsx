@@ -7,6 +7,11 @@ import Register from './../pages/Register';
 import Available from "../pages/Available";
 import FoodDetails from "../pages/FoodDetails";
 import PrivateRoute from "./PrivateRoute";
+import AddFood from './../pages/AddFood';
+import FoodRequests from '../pages/Management/FoodRequests';
+import ManageFoods from '../pages/Management/ManageFoods';
+import UpdateFood from './../pages/Management/UpdateFood';
+import ManageRequests from './../pages/Management/ManageRequests';
 
 
 const Router = createBrowserRouter([
@@ -32,8 +37,28 @@ const Router = createBrowserRouter([
                 element: <Available></Available>
             },
             {
-                path: "/food_details/:id",
+                path: "food_details/:id",
                 element: <PrivateRoute><FoodDetails></FoodDetails></PrivateRoute>
+            },
+            {
+                path: "add",
+                element: <PrivateRoute><AddFood></AddFood></PrivateRoute>
+            },
+            {
+                path: "requests",
+                element: <PrivateRoute><FoodRequests></FoodRequests></PrivateRoute>
+            },
+            {
+                path: "manage",
+                element: <PrivateRoute><ManageFoods></ManageFoods></PrivateRoute>
+            },
+            {
+                path: "/manage/update/:id",
+                element: <PrivateRoute><UpdateFood></UpdateFood></PrivateRoute>
+            },
+            {
+                path: "/manage/requests/:id",
+                element: <PrivateRoute><ManageRequests></ManageRequests></PrivateRoute>
             },
         ]
     }

@@ -31,7 +31,7 @@ const LogoCarousel = () => {
     }, [])
     return (
         <div className="grid items-center grid-cols-12 container mx-auto overflow-hidden">
-            <div className="col-span-3 flex flex-col items-center justify-center bg-slate-50 h-20 z-50">
+            <div className="col-span-3 flex flex-col items-center justify-center bg-slate-50 h-20 z-10">
                 <h2 className="font-semibold text-xl text-primary">Our Partners</h2>
                 <h4 className="text-gray-400 text-sm">Trusted by the world’s most innovative teams</h4>
             </div>
